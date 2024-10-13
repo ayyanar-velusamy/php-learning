@@ -2,8 +2,7 @@
 
 
 
-//validation 
-
+//validation for inputs
 
 function validate_inputs($array){
     $errors = [];
@@ -13,7 +12,6 @@ function validate_inputs($array){
                 $errors[$key] = "<span style='color:red'>". $key . " should not be empty</span>";
             }
         }        
-        
     }
     return $errors;
 }
