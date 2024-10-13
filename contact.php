@@ -74,23 +74,8 @@
     <!--BUTTON-->
     <p><button type="submit">submit</button></p>
 </form>
-<!--
-<script>
-    const month =document.getElementById("month");
-    const mon=["january","feb","mar","apr","may","june","july","aug","sep","oct","nov","dec"]
-    for(let i =0;i<=mon.length;i++){
-        month.options.add(new Option(mon[i],mon[i]));
-    }
-    const day = document.getElementById("day");
-    for(let i=1;i<=31;i++){
-        day.options.add(new Option(i,i))
-    }
-    const year = document.getElementById("year");
-    const getyear=new Date().getFullYear();
-    for(let i=getyear;i>=getyear-50;i--){
-        year.options.add(new Option(i,i))
-    }
-</script>
--->
+
+
+
 </body>
 </html>
